@@ -14,7 +14,7 @@ public class InquiryCompleteDAO {
 	
 	List<InquiryDTO> inquiryDTOList = new ArrayList<InquiryDTO>();
 	
-	List<InquiryDTO> select(){
+	public List<InquiryDTO> select(){
 		DBConnector db = new DBConnector();
 		Connection con = db.getConnection();
 		
